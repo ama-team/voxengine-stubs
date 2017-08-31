@@ -1,0 +1,11 @@
+# IDE files
+.idea
+
+# Node Artifacts
+node_modules
+npm-debug.log
+package-lock.json
+
+# Repo Artifacts
+tmp
+
