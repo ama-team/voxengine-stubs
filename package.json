@@ -29,6 +29,7 @@
     "@ama-team/allure-polyfill": "^0.1.0",
     "allure-mocha": "0.0.1",
     "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
     "coveralls": "^2.13.1",
     "fs-extra": "^4.0.1",
     "istanbul": "^0.4.5",

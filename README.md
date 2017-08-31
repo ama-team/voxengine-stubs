@@ -148,8 +148,8 @@ http:
   #   headers:
   #     - key: Server
   #       value: elasticsearch/5.5.2
-  #   raw_headers:
-  #     - 'Server: elasticsearch/5.5.2'
+  #   raw_headers: |
+  #     Server: elasticsearch/5.5.2
   #   text: '{"acknowledged":true}'
   responses: []
   # whether to throw when last response have been reached or
