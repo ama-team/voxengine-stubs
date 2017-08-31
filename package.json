@@ -1,6 +1,6 @@
 {
   "name": "@ama-team/voxengine-stubs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "VoxImplant application environment stubs for testing",
   "main": "lib/index.js",
   "scripts": {
