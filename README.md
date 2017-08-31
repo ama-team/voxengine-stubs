@@ -157,6 +157,31 @@ http:
   roundRobin: false
 ```
 
+Every response may have a matcher - function that will accept url and
+options and will return true or false:
+
+```js
+var response = {
+  code: 403,
+  matcher: function (url, options) {
+    return url === 'http://host.tld/protected' && options.method === 'POST'
+  }
+}
+```
+
+Every response may specify a delay function that will return a promise:
+
+```js
+var response = {
+  code: 200,
+  delay: function() {
+    return new Promise(function (resolve) { 
+      setTimeout(resolve, 20)
+     })
+  }
+}
+````
+
 ## AppEvents and CallEvents
 
 Both of these namespace have been stubbed. You can create events 
