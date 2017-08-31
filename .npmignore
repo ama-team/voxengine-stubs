@@ -1,0 +1,14 @@
+# Build artifacts
+tmp
+
+# Tests
+test
+
+# Redundant configuration
+Jakefile
+tasks
+circle.yml
+.scrutinizer.yml
+.npmignore
+.istanbul.yml
+.gitignore
