@@ -125,7 +125,7 @@ customData:
   default: ''
 terminate:
   # Whether to throw on second VoxEngine.terminate call
-  throwOnMultipleTerminations: false
+  throwOnMultipleCalls: false
   # Whether to throw if `this` is lost. Such call may result in
   # undesired behavior in VoxEngine.
   throwOnLostContext: true

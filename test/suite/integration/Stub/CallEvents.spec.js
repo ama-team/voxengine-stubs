@@ -5,7 +5,7 @@ var expect = Chai.expect
 
 var CallEvents = require('../../../../lib/Stub/CallEvents').CallEvents
 
-describe('Acceptance', function () {
+describe('Integration', function () {
   describe('/Stub', function () {
     describe('/CallEvents.js', function () {
       describe('.CallEvents', function () {

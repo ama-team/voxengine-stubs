@@ -7,7 +7,7 @@ var expect = Chai.expect
 
 var Logger = require('../../../../lib/Stub/Logger').Logger
 
-describe('Acceptance', function () {
+describe('Integration', function () {
   describe('/Stub', function () {
     describe('/Logger.js', function () {
       describe('.Logger', function () {

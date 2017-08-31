@@ -5,7 +5,7 @@ var expect = Chai.expect
 
 var AppEvents = require('../../../../lib/Stub/AppEvents').AppEvents
 
-describe('Acceptance', function () {
+describe('Integration', function () {
   describe('/Stub', function () {
     describe('/AppEvents.js', function () {
       describe('.AppEvents', function () {
