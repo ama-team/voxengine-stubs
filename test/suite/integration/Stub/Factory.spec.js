@@ -102,6 +102,7 @@ describe('Integration', function () {
           })
 
           it('creates _flush even without provided handler', function () {
+            onFlush = null
             expect(autoStub()._flush).not.to.throw()
           })
         })
